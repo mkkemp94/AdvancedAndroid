@@ -1,18 +1,13 @@
 package com.mkemp.advancedandroid.home;
 
-import android.os.Bundle;
-
 import com.mkemp.advancedandroid.R;
+import com.mkemp.advancedandroid.base.BaseActivity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-public class MainActivity extends AppCompatActivity
+public class MainActivity extends BaseActivity
 {
-    
     @Override
-    protected void onCreate(Bundle savedInstanceState)
+    protected int layoutRes()
     {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        return R.layout.activity_main;
     }
 }
