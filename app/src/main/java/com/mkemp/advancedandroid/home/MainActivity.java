@@ -1,8 +1,10 @@
-package com.mkemp.advancedandroid;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.mkemp.advancedandroid.home;
 
 import android.os.Bundle;
+
+import com.mkemp.advancedandroid.R;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity
 {
